@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <div class="toolbar-content">
+
+    <!-- Logo com link para a Home -->
+    <span class="title" routerLink="/" style="cursor: pointer;">
+      <img src="./assets/img/nlogo.ico" alt="">
+    </span>
+
+    <!-- Link para produtos -->
+    <span class="title" routerLink="/produtos" style="cursor: pointer;">
+      Produtos
+    </span>
+
+    <span class="spacer"></span>
+
+    <mat-icon>favorite</mat-icon>
+    <mat-icon>shopping_cart</mat-icon>
+
+    <!-- Botão de login -->
+    <button mat-raised-button color="accent" routerLink="/login">
+      <mat-icon>login</mat-icon>
+      Login
+    </button>
+  </div>
+</mat-toolbar>
+

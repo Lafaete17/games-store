@@ -1,0 +1,65 @@
+
+/* Altura da área principal */
+main {
+  min-height: 500px;
+}
+
+/* Ajustar tamanho do carrossel */
+#banner {
+  min-height: 400px;
+}
+
+#banner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+/* CARD PADRONIZADO */
+.example-card {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-card-content {
+  flex-grow: 1;
+}
+
+mat-card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-card-actions p {
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Imagens dos cards */
+mat-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+
