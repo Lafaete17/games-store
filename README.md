@@ -1,27 +1,86 @@
-# GamesStore
+Uma aplicação Angular desenvolvida para exibir produtos, permitir navegação moderna e oferecer uma experiência fluida ao usuário.
+Projeto criado para estudo e prática de Angular, Angular Material e organização de componentes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+ecnologias utilizadas
 
-## Development server
+Angular 17+
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+TypeScript
 
-## Code scaffolding
+Angular Material
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+SCSS
 
-## Build
+HTML5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Git & GitHub
 
-## Running unit tests
+Funcionalidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ Cabeçalho com navegação utilizando routerLink
 
-## Running end-to-end tests
+ Página inicial com apresentação dos produtos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ Página de login
 
-## Further help
+ Componente de rodapé estilizado
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ Suporte a rotas configuradas via AppRoutingModule
+
+ Layout moderno com Angular Material
+
+ Como rodar o projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/Lafaete17/games-store.git
+cd games-store
+
+2️⃣ Instalar dependências
+npm install
+
+3️⃣ Rodar o servidor de desenvolvimento
+ng serve --open
+
+
+A aplicação iniciará em:
+👉 http://localhost:4200
+
+📁 Estrutura do projeto
+games-store/
+ ├── src/
+ │   ├── app/
+ │   │   ├── inicio/
+ │   │   ├── login/
+ │   │   ├── rodape/
+ │   │   ├── header/
+ │   │   └── app-routing.module.ts
+ │   ├── assets/
+ │   └── index.html
+ └── README.md
+
+🌐 Rotas configuradas
+Rota	Componente	Descrição
+/	InicioComponent	Página inicial da loja
+/login	LoginComponent	Tela de autenticação
+**	Redirect → /	Rota inválida redireciona
+🖼️ Layout (exemplos)
+
+Se quiser, posso gerar imagens, mockups, ou até uma demo animada em GIF para colocar aqui.
+
+🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias:
+
+git checkout -b minha-melhoria
+git commit -m "melhoria: descrição"
+git push origin minha-melhoria
+
+📄 Licença
+
+Este projeto é livre para estudo e modificação.
+
+👤 Autor
+
+Lafaete Santos
+📌 Projeto desenvolvido para prática e aperfeiçoamento em Angular.
+
+
