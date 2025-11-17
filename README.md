@@ -1,7 +1,7 @@
 Uma aplicação Angular desenvolvida para exibir produtos, permitir navegação moderna e oferecer uma experiência fluida ao usuário.
 Projeto criado para estudo e prática de Angular, Angular Material e organização de componentes.
 
-ecnologias utilizadas
+Tecnologias utilizadas
 
 Angular 17+
 
