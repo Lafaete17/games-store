@@ -1,0 +1,15 @@
+<h2>Lista de Produtos</h2>
+
+<div *ngFor="let p of produtos"
+     style="border: 1px solid #ccc; padding: 10px; margin: 10px; border-radius: 8px; max-width: 300px;">
+
+  <strong>{{ p.produto }}</strong><br>
+  {{ p.descricao }}<br>
+  Preço: {{ p.preco }}<br>
+
+  <img [src]="'assets/img/' + p.foto" width="150">
+
+</div>
+
+
+

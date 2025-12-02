@@ -1,3 +1,5 @@
+
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -20,6 +22,7 @@ import { MenuComponent } from './menu/menu.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { ProdutosComponent } from './produtos/produtos.component';
 
 
 @NgModule({
@@ -28,12 +31,14 @@ import { RodapeComponent } from './rodape/rodape.component';
     MenuComponent,
     InicioComponent,
     LoginComponent,
-    RodapeComponent
+    RodapeComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
 
     /* Material */
     MatButtonModule,
