@@ -1,26 +1,39 @@
 <mat-toolbar color="primary">
   <div class="toolbar-content">
 
-    <!-- Logo com link para a Home -->
-    <span class="title" routerLink="/" style="cursor: pointer;">
-      <img src="./assets/img/nlogo.ico" alt="">
-    </span>
+    <!-- Logo com link para Home -->
+    <button mat-button class="logo" routerLink="/">
+      <img src="./assets/img/nlogo.ico" alt="Logo"  />
+      <span class="logo-text">Início</span>
+    </button>
 
-    <!-- Link para produtos -->
-    <span class="title" routerLink="/produtos" style="cursor: pointer;">
+        <button mat-button routerLink="/painel-principal">
+  Painel
+</button>
+
+
+    <!-- Link: Produtos -->
+    <button mat-button routerLink="/produtos">
       Produtos
-    </span>
+    </button>
 
     <span class="spacer"></span>
 
-    <mat-icon>favorite</mat-icon>
-    <mat-icon>shopping_cart</mat-icon>
+    <!-- Ícones -->
+    <button mat-icon-button>
+      <mat-icon>favorite</mat-icon>
+    </button>
+
+    <button mat-icon-button>
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
 
     <!-- Botão de login -->
     <button mat-raised-button color="accent" routerLink="/login">
       <mat-icon>login</mat-icon>
       Login
     </button>
+
   </div>
 </mat-toolbar>
 

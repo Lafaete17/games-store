@@ -1,84 +1,47 @@
-.example-spacer {
+// Espaço flexível
+.spacer, .example-spacer {
   flex: 1 1 auto;
 }
 
-span{
-  padding: 10px;
-}
-
-img{
-  height: 50px;
-  width: 50px;
-  margin-top: 5px;
-}
-
+// Estilo geral da toolbar
 .toolbar-content {
   display: flex;
   align-items: center;
   width: 100%;
   padding: 0 16px;
 
-  .menu-icon {
-    margin-right: 16px;
-  }
-
-  .title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-right: 24px;
-  }
-
-  .spacer {
-    flex: 1 1 auto;
-  }
-
-  mat-icon {
-    margin: 0 8px;
-    cursor: pointer;
-    transition: transform 0.2s ease, color 0.2s ease;
-
-    &:hover {
-      transform: scale(1.2);
-      color: #ffeb3b; // muda cor ao passar o mouse
-    }
-  }
-}
-
-.toolbar-content {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 0 16px;
-
-  .menu-icon {
-    margin-right: 16px;
-  }
-
-  .title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-right: 24px;
-  }
-
-  .spacer {
-    flex: 1 1 auto;
-  }
-
-  mat-icon {
-    margin: 0 8px;
-    cursor: pointer;
-    transition: transform 0.2s ease, color 0.2s ease;
-
-    &:hover {
-      transform: scale(1.2);
-      color: #ffeb3b;
-    }
-  }
-
-  button {
+  .logo {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 10px; // espaço entre logo e texto
+  }
+
+  // Ícone do menu
+  .menu-icon {
+    margin-right: 16px;
+  }
+
+  // Estilo de títulos ou itens de texto
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  // Imagem/logo
+  img {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+  }
+
+  // Ícones favoritos/carrinho
+  mat-icon {
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0
   }
 }
 

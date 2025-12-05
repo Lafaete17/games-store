@@ -23,6 +23,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { ProdutosComponent } from './produtos/produtos.component';
+import { PainelPrincipalComponent } from './painel-principal/painel-principal.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ProdutosComponent } from './produtos/produtos.component';
     InicioComponent,
     LoginComponent,
     RodapeComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    PainelPrincipalComponent
   ],
   imports: [
     BrowserModule,
