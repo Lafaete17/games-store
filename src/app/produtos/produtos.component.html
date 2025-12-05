@@ -1,14 +1,25 @@
-<h2>Lista de Produtos</h2>
+<div class="container">
+  <h2>Lista de Produtos</h2>
 
-<div *ngFor="let p of produtos"
-     style="border: 1px solid #ccc; padding: 10px; margin: 10px; border-radius: 8px; max-width: 300px;">
+  <div class="lista-produtos">
+    <mat-card *ngFor="let p of produtos" class="card-produto">
+      <mat-card-header>
+        <mat-card-title>{{ p.produto }}</mat-card-title>
+        <mat-card-subtitle>Preço: R$ {{ p.preco }}</mat-card-subtitle>
+      </mat-card-header>
 
-  <strong>{{ p.produto }}</strong><br>
-  {{ p.descricao }}<br>
-  Preço: {{ p.preco }}<br>
+      <img mat-card-image [src]="'assets/img/' + p.foto" alt="{{ p.produto }}">
 
-  <img [src]="'assets/img/' + p.foto" width="150">
+      <mat-card-content>
+        <p>{{ p.descricao }}</p>
+      </mat-card-content>
 
+      <mat-card-actions>
+        <button mat-raised-button color="primary">Editar</button>
+        <button mat-raised-button color="warn">Excluir</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
 </div>
 
 

@@ -4,7 +4,8 @@ import { ProdutoService } from '../services/produto.service';
 @Component({
   selector: 'app-produtos',
   templateUrl: './produtos.component.html',
-  styles: ['']
+  styleUrls: ['./produtos.component.scss']
+
 })
 export class ProdutosComponent implements OnInit {
 
