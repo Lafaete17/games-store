@@ -24,6 +24,8 @@ import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { PainelPrincipalComponent } from './painel-principal/painel-principal.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -34,7 +36,8 @@ import { PainelPrincipalComponent } from './painel-principal/painel-principal.co
     LoginComponent,
     RodapeComponent,
     ProdutosComponent,
-    PainelPrincipalComponent
+    PainelPrincipalComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { PainelPrincipalComponent } from './painel-principal/painel-principal.co
     MatIconModule,
     MatInputModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

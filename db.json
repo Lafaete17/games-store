@@ -1,24 +1,81 @@
 {
   "produtos": [
-    { "id": 1, "produto": "Asseto Corsa", "descricao": "Assetto Corsa é um simulador de corrida realista para PC e consoles, focado em física precisa e detalhes de carros ", "foto": "asseto-corsa.jpg", "preco": 59.0 },
-
-    { "id": 2, "produto": "Call of Duty", "descricao": "Call of Duty é uma franquia de jogos eletrônicos de tiro em primeira pessoa, publicada pela Activision, conhecida por seus cenários militares em guerras históricas e modernas", "foto": "cod.png", "preco": 299.00 },
-
-    { "id": 3, "produto": "Cyberpunk 2077", "descricao": "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na futurista e perigosa Night City", "foto": "Cyberpunk_2077.png", "preco": 199.90 },
-
-    { "id": 4, "produto": "Euro Truck Simulator-2", "descricao": "Dirija caminhões articulados, respeitando sinais, limites de velocidade, controlando combustível e cansaço, tudo em uma versão em escala da Europa.", "foto": "euro-truck-simulator-2.jpg", "preco": 49.99 },
-
-    { "id": 5, "produto": "Flight Simulator-2024", "descricao": "É uma experiência de simulação de voo profunda e visualmente deslumbrante, ideal para entusiastas da aviação que buscam realismo e para novos jogadores que querem aprender a pilotar em um ambiente virtual rico e interativo, com novos títulos como o MSFS 2024 adicionando ainda mais profundidade com foco na carreira e diversas atividades. ", "foto": "flight-simulator-2024.jpg", "preco": 339.99 },
-
-    { "id": 6, "produto": "Gran Turismo 7", "descricao": "Gran Turismo 7 é uma celebração da cultura automotiva, oferecendo uma experiência completa que agrada desde o casual até o competitivo, com uma vasta quantidade de conteúdo e uma simulação de direção profunda e recompensadora.", "foto": "Gran_Turismo_7.jpg", "preco": 78.90 },
-
-    { "id": 7, "produto": "Halo 4", "descricao": " Halo 4 mergulha o jogador em uma aventura épica e pessoal, onde o Master Chief lida com os dilemas de sua existência enquanto desvenda os mistérios de uma civilização antiga e enfrenta uma nova e formidável ameaça, tudo isso com gráficos aprimorados e novos modos de jogo para o universo Halo", "foto": "Halo_4.jpg", "preco": 79.90 },
-
-    { "id": 8, "produto": "Lego Star Wars", "descricao": "É uma das linhas de produtos LEGO mais duradouras e populares, ligando o universo de Star Wars à diversão de construir e jogar com LEGO. Oferece uma vasta gama de produtos, desde colecionáveis físicos até experiências digitais imersivas.", "foto": "Lego-star-wars.jpg", "preco": 37.99 },
-
-    { "id": 9, "produto": "GTA san Andreas", "descricao": "Lançado em 2004, marcou época por sua escala, profundidade e liberdade, sendo um dos jogos mais icônicos da série GTA, elogiado pela inovação em mecânicas de jogo e pela rica ambientação nos anos 90.", "foto": "gta-san-andreas.jpg", "preco": 59.99 },
-
-    { "id": 10, "produto": "Minecraft", "descricao": "Minecraft é um popular jogo eletrônico sandbox de sobrevivência, lançado em 2011 pela Mojang Studios, onde os jogadores exploram um mundo tridimensional, extraem recursos (mineração) e constroem estruturas usando blocos. O jogo é conhecido por sua liberdade criativa, com modos de jogo que incluem criatividade, aventura e sobrevivência. Originalmente desenvolvido por Markus Notch Persson, a Mojang foi comprada pela Microsoft em 2014. ", "foto": "minecraft.png", "preco": 95.99 }
+    {
+      "id": 1,
+      "produto": "Asseto Corsa",
+      "descricao": "Assetto Corsa é um simulador de corrida realista para PC e consoles, focado em física precisa e detalhes de carros ",
+      "foto": "asseto-corsa.jpg",
+      "preco": 49.99
+    },
+    {
+      "id": 2,
+      "produto": "Call of Duty",
+      "descricao": "Call of Duty é uma franquia de jogos eletrônicos de tiro em primeira pessoa, publicada pela Activision, conhecida por seus cenários militares em guerras históricas e modernas",
+      "foto": "cod.png",
+      "preco": 299
+    },
+    {
+      "id": 3,
+      "produto": "Cyberpunk 2077",
+      "descricao": "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na futurista e perigosa Night City",
+      "foto": "Cyberpunk_2077.png",
+      "preco": 199.9
+    },
+    {
+      "id": 4,
+      "produto": "Euro Truck Simulator-2",
+      "descricao": "Dirija caminhões articulados, respeitando sinais, limites de velocidade, controlando combustível e cansaço, tudo em uma versão em escala da Europa.",
+      "foto": "euro-truck-simulator-2.jpg",
+      "preco": 49.99
+    },
+    {
+      "id": 5,
+      "produto": "Flight Simulator-2024",
+      "descricao": "É uma experiência de simulação de voo profunda e visualmente deslumbrante, ideal para entusiastas da aviação que buscam realismo e para novos jogadores que querem aprender a pilotar em um ambiente virtual rico e interativo, com novos títulos como o MSFS 2024 adicionando ainda mais profundidade com foco na carreira e diversas atividades. ",
+      "foto": "flight-simulator-2024.jpg",
+      "preco": 150
+    },
+    {
+      "id": 6,
+      "produto": "Gran Turismo 7",
+      "descricao": "Gran Turismo 7 é uma celebração da cultura automotiva, oferecendo uma experiência completa que agrada desde o casual até o competitivo, com uma vasta quantidade de conteúdo e uma simulação de direção profunda e recompensadora.",
+      "foto": "Gran_Turismo_7.jpg",
+      "preco": 78.9
+    },
+    {
+      "id": 7,
+      "produto": "Halo 4",
+      "descricao": " Halo 4 mergulha o jogador em uma aventura épica e pessoal, onde o Master Chief lida com os dilemas de sua existência enquanto desvenda os mistérios de uma civilização antiga e enfrenta uma nova e formidável ameaça, tudo isso com gráficos aprimorados e novos modos de jogo para o universo Halo",
+      "foto": "Halo_4.jpg",
+      "preco": 79.9
+    },
+    {
+      "id": 8,
+      "produto": "Lego Star Wars",
+      "descricao": "É uma das linhas de produtos LEGO mais duradouras e populares, ligando o universo de Star Wars à diversão de construir e jogar com LEGO. Oferece uma vasta gama de produtos, desde colecionáveis físicos até experiências digitais imersivas.",
+      "foto": "Lego-star-wars.jpg",
+      "preco": 37.99
+    },
+    {
+      "id": 9,
+      "produto": "GTA san Andreas",
+      "descricao": "Lançado em 2004, marcou época por sua escala, profundidade e liberdade, sendo um dos jogos mais icônicos da série GTA, elogiado pela inovação em mecânicas de jogo e pela rica ambientação nos anos 90.",
+      "foto": "gta-san-andreas.jpg",
+      "preco": 59.99
+    },
+    {
+      "id": 10,
+      "produto": "Minecraft",
+      "descricao": "Minecraft é um popular jogo eletrônico sandbox de sobrevivência, lançado em 2011 pela Mojang Studios, onde os jogadores exploram um mundo tridimensional, extraem recursos (mineração) e constroem estruturas usando blocos. O jogo é conhecido por sua liberdade criativa, com modos de jogo que incluem criatividade, aventura e sobrevivência. Originalmente desenvolvido por Markus Notch Persson, a Mojang foi comprada pela Microsoft em 2014. ",
+      "foto": "minecraft.png",
+      "preco": 95.99
+    },
+    {
+      "produto": "Red Dead Redemption 2",
+      "descricao": "Red Dead Redemption 2 (RDR2) é um épico jogo de ação e aventura de mundo aberto da Rockstar Games, ambientado no Velho Oeste americano em 1899, que funciona como uma prequela do primeiro jogo",
+      "preco": 59.99,
+      "foto": "red-dead-2.jpg",
+      "id": 11
+    }
   ]
 }
-

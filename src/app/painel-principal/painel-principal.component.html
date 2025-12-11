@@ -1,6 +1,14 @@
 <div class="container mt-4">
   <h2>Lista de Produtos</h2>
 
+  <!-- Botão NOVO PRODUTO -->
+  <div style="text-align: right; margin-bottom: 15px;">
+    <button mat-raised-button color="primary" routerLink="/cadastro-produto">
+      <mat-icon>add</mat-icon>
+      Novo Produto
+    </button>
+  </div>
+
   <table class="table table-bordered">
     <thead class="table-dark">
       <tr>
@@ -20,9 +28,9 @@
         <td>
           <img
             [src]="'assets/img/' + produto.foto"
-            alt="{{ produto.produto }}"
-            width="60"
-            height="60"
+            alt="Imagem do produto"
+            width="70"
+            style="border-radius: 8px;"
           >
         </td>
 
@@ -30,14 +38,26 @@
         <td>{{ produto.descricao }}</td>
         <td>R$ {{ produto.preco }}</td>
 
-            <td class="acoes">
-    <button class="btn btn-primary btn-sm">Editar</button>
-    <button class="btn btn-danger btn-sm">Excluir</button>
-    </td>
+        <!-- AÇÕES -->
+        <td class="acoes">
+          <button class="btn btn-primary btn-sm" (click)="editar(produto.id)">
+            Editar
+          </button>
+
+          <button mat-raised-button color="warn" class="ms-2"
+                  (click)="deletar(produto.id)">
+            <mat-icon>delete</mat-icon>
+            Excluir
+          </button>
+        </td>
 
       </tr>
     </tbody>
   </table>
 </div>
+
+
+
+
 
 
